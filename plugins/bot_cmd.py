@@ -156,7 +156,7 @@ async def bcmd(bot: Bot, message: Message):
 
 @Bot.on_message(filters.command('forcesub') & filters.private & ~banUser)
 async def fsub_commands(client: Client, message: Message):
-    button = [[InlineKeyboardButton("• ᴄʟᴏsᴇ •", callback_data="close")]]
+    button = [[InlineKeyboardButton("•  ᴄʟᴏsᴇ  •", callback_data="close")]]
     await message.reply(text=FSUB_CMD_TXT, reply_markup=InlineKeyboardMarkup(button), quote=True)
 
 

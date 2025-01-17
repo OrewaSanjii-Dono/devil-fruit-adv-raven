@@ -12,8 +12,8 @@ def convert_time(duration_seconds: int) -> str:
         ('ᴍᴏɴᴛʜ', 60 * 60 * 24 * 30),
         ('ᴅᴀʏ', 60 * 60 * 24),
         ('ʜᴏᴜʀ', 60 * 60),
-        ('ᴍɪɴᴜᴛᴇs', 60),
-        ('sᴇᴄᴏɴᴅs', 1)
+        ('ᴍɪɴᴜᴛᴇ', 60),
+        ('sᴇᴄᴏɴᴅ', 1)
     ]
 
     parts = []
@@ -48,7 +48,7 @@ async def auto_del_notification(bot_username, msg, delay_time, transfer):
                 link = f"https://t.me/{bot_username}?start={transfer}"
                 button = [[InlineKeyboardButton(text=name, url=link), InlineKeyboardButton(text="ᴄʟᴏsᴇ •", callback_data = "close")]]
 
-                await temp.edit_text(text=f"<b>›› ᴘʀᴇᴠɪᴏᴜs ᴍᴇssᴀɢᴇ ᴡᴀs ᴅᴇʟᴇᴛᴇᴅ ✅\nɪғ ʏᴏᴜ ᴡᴀɴᴛ ᴛᴏ ɢᴇᴛ ᴛʜᴇ ғɪʟᴇs ᴀɢᴀɪɴ, ᴛʜᴇɴ ᴄʟɪᴄᴋ: <a href={link}>{name}</a> ʙᴜᴛᴛᴏɴ ʙᴇʟᴏᴡ ᴇʟsᴇ ᴄʟᴏsᴇ ᴛʜɪs ᴍᴇssᴀɢᴇ.</b>", reply_markup=InlineKeyboardMarkup(button), disable_web_page_preview = True)
+                await temp.edit_text(text=f"<b>›› ᴘʀᴇᴠɪᴏᴜs ᴍᴇssᴀɢᴇ ᴡᴀs ᴅᴇʟᴇᴛᴇᴅ ✅\n\n››ɪғ ʏᴏᴜ ᴡᴀɴᴛ ᴛᴏ ɢᴇᴛ ᴛʜᴇ ғɪʟᴇs ᴀɢᴀɪɴ, ᴛʜᴇɴ ᴄʟɪᴄᴋ: <a href={link}>{name}</a> ʙᴜᴛᴛᴏɴ ʙᴇʟᴏᴡ ᴇʟsᴇ ᴄʟᴏsᴇ ᴛʜɪs ᴍᴇssᴀɢᴇ.</b>", reply_markup=InlineKeyboardMarkup(button), disable_web_page_preview = True)
 
             except Exception as e:
                 await temp.edit_text(f"<b>›› ᴘʀᴇᴠɪᴏᴜs ᴍᴇssᴀɢᴇ ᴡᴀs ᴅᴇʟᴇᴛᴇᴅ.</b>")

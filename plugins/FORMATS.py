@@ -11,7 +11,7 @@ autodel_cmd_pic = "https://envs.sh/NyZ.jpg"
 START_MSG = """<b>›› ʜᴇʏ!!, {mention} ~\n\n<blockquote>ʟᴏᴠᴇ ᴛᴏ ᴡᴀᴛᴄʜ ᴀɴɪᴍᴇ sᴇʀɪᴇs ᴀɴᴅ ᴍᴏᴠɪᴇs? ɪ ᴀᴍ ᴍᴀᴅᴇ ᴛᴏ ʜᴇʟᴘ ʏᴏᴜ ᴛᴏ ғɪɴᴅ ᴡʜᴀᴛ ʏᴏᴜ'ʀᴇ ʟᴏᴏᴋɪɴɢ ꜰᴏʀ.</blockquote></b>"""
 
 #Force sub message 
-FORCE_MSG = """<b><blockquote>›› ʜᴇʏ {mention} ×</blockquote>\n\n  ʏᴏᴜʀ ғɪʟᴇ ɪs ʀᴇᴀᴅʏ ‼️ ʟᴏᴏᴋs ʟɪᴋᴇ ʏᴏᴜ ʜᴀᴠᴇɴ'ᴛ sᴜʙsᴄʀɪʙᴇᴅ ᴛᴏ ᴏᴜʀ ᴄʜᴀɴɴᴇʟs ʏᴇᴛ, sᴜʙsᴄʀɪʙᴇ ɴᴏᴡ ᴛᴏ ɢᴇᴛ ʏᴏᴜʀ ғɪʟᴇs.\n\n<blockquote>›› ᴅᴇᴠᴇʟᴏᴘᴇᴅ ғᴏʀ : [ @Anime_Raven ]</blockquote></b>"""
+FORCE_MSG = """<b><blockquote>›› ʜᴇʏ {mention} ×</blockquote>\n\n  ʏᴏᴜʀ ғɪʟᴇ ɪs ʀᴇᴀᴅʏ ‼️ ʟᴏᴏᴋs ʟɪᴋᴇ ʏᴏᴜ ʜᴀᴠᴇɴ'ᴛ sᴜʙsᴄʀɪʙᴇᴅ ᴛᴏ ᴏᴜʀ ᴄʜᴀɴɴᴇʟs ʏᴇᴛ, sᴜʙsᴄʀɪʙᴇ ɴᴏᴡ ᴛᴏ ɢᴇᴛ ʏᴏᴜʀ ғɪʟᴇs.\n\n<blockquote>›› ᴅᴇᴠᴇʟᴏᴘᴇᴅ ғᴏʀ: [@Anime_Raven]</blockquote></b>"""
 
 CMD_TXT = """<b>» ᴀᴅᴍɪɴ ᴄᴏᴍᴍᴀɴᴅs:
 
@@ -107,6 +107,7 @@ RFSUB_CMD_TXT = """<b>›› ʀᴇǫᴜᴇsᴛ ғsᴜʙ sᴇᴛᴛɪɴɢs:
 RFSUB_MS_TXT = """<b>›› ʀᴇǫᴜᴇsᴛ ғsᴜʙ ʟɪsᴛ:
 
 <blockquote expandable>{reqfsub_list}</blockquote>
+
 ›› ᴄʟɪᴄᴋ ʙᴇʟᴏᴡ ʙᴜᴛᴛᴏɴs ᴛᴏ ᴄʜᴀɴɢᴇ sᴇᴛᴛɪɴɢs</b>"""
 
 CLEAR_USERS_TXT = """<b>What is the use of Clear Users !?</b>
@@ -115,7 +116,7 @@ CLEAR_USERS_TXT = """<b>What is the use of Clear Users !?</b>
 
 ➪ ʜᴇʀᴇ oɴʟʏ usᴇʀ ᴅᴀᴛᴀ ɪs ᴅᴇʟᴇᴛᴇᴅ ғʀᴏᴍ sᴘᴇᴄɪғɪᴇᴅ ᴄʜᴀɴɴᴇʟ.</blockquote>
 
-<b>Cʜᴏᴏsᴇ ᴛʜᴇ Cʜᴀɴɴᴇʟ ID ғᴏʀ Dᴇʟᴇᴛɪɴɢ ᴜsᴇʀ ᴅᴀᴛᴀ:</b>"""
+<b>Choose the Channel ID for Deleting user data:</b>"""
 
 
 CLEAR_CHNLS_TXT = """<b>What is the use of Clear Channels !?</b>
@@ -124,9 +125,9 @@ CLEAR_CHNLS_TXT = """<b>What is the use of Clear Channels !?</b>
 
 ➪ ʜᴇʀᴇ ᴀʟʟ ᴅᴀᴛᴀ ʀᴇᴀʟᴛᴇᴅ ᴛᴏ ʀᴇǫᴜᴇsᴛ ғᴏʀᴄᴇsᴜʙ ᴄʜᴀɴɴᴇʟ ɪᴅ ᴅᴇʟᴇᴛᴇᴅ Pᴇʀᴍᴀɴᴇɴᴛʟʏ...</blockquote>
 
-<b>⚠️ WARNING:</b> ᴄʟᴇᴀʀ ᴛʜᴇ ᴄʜᴀɴɴᴇʟ ᴅᴀᴛᴀ ᴏɴʟʏ ᴡʜᴇɴ ɪᴛ ɪs ᴄᴏɴғɪʀᴍᴇᴅ ᴛʜᴀᴛ ᴛʜᴇ ᴅᴀᴛᴀ ᴡɪʟʟ ɴᴏ ʟᴏɴɢᴇʀ ʙᴇ ʀᴇǫᴜɪʀᴇᴅ ғᴏʀ ғᴜᴛᴜʀᴇ ᴏᴘᴇʀᴀᴛɪᴏɴs.
+<blockquote expandable><b>⚠️ WARNING:</b> ᴄʟᴇᴀʀ ᴛʜᴇ ᴄʜᴀɴɴᴇʟ ᴅᴀᴛᴀ ᴏɴʟʏ ᴡʜᴇɴ ɪᴛ ɪs ᴄᴏɴғɪʀᴍᴇᴅ ᴛʜᴀᴛ ᴛʜᴇ ᴅᴀᴛᴀ ᴡɪʟʟ ɴᴏ ʟᴏɴɢᴇʀ ʙᴇ ʀᴇǫᴜɪʀᴇᴅ ғᴏʀ ғᴜᴛᴜʀᴇ ᴏᴘᴇʀᴀᴛɪᴏɴs.</blockquote>
 
-<b>Cʜᴏᴏsᴇ ᴛʜᴇ Cʜᴀɴɴᴇʟ ID ғᴏʀ Dᴇʟᴇᴛɪɴɢ:</i></b>"""
+<b>Choose the Channel ID for Deleting:</b>"""
 
 
 CLEAR_LINKS_TXT = """<b>What is the use of Clear Links !?</b>

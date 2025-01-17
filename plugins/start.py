@@ -104,8 +104,8 @@ async def start_command(client: Client, message: Message):
                         
     else:   
         reply_markup=InlineKeyboardMarkup([
-                    [InlineKeyboardButton("• ғᴏʀ ᴍᴏʀᴇ •", callback_data='setting')],
-                    [InlineKeyboardButton("• ᴀʙᴏᴜᴛ", callback_data='about'),
+                    [InlineKeyboardButton("• ғᴏʀ ᴍᴏʀᴇ •", callback_data='about')],
+                    [InlineKeyboardButton("• sᴇᴛᴛɪɴɢs", callback_data='setting'),
                      InlineKeyboardButton("ʜᴇʟᴘ •", url='https://t.me/Anime_Chat_Raven')],
                 ])
         await message.reply_photo(
@@ -172,7 +172,7 @@ async def not_joined(client: Client, message: Message):
                         link = data.invite_link
 
                     # Add button for the chat
-                    buttons.append([InlineKeyboardButton(text='››  ᴊᴏɪɴ ᴄʜᴀɴɴᴇʟ  ×', url=link)])
+                    buttons.append([InlineKeyboardButton(text='›› ᴊᴏɪɴ ᴄʜᴀɴɴᴇʟ ×', url=link)])
                     count += 1
                     await temp.edit(f"<b>{'! ' * count}</b>")
                                                             
