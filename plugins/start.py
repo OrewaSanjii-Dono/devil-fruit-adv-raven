@@ -104,9 +104,9 @@ async def start_command(client: Client, message: Message):
                         
     else:   
         reply_markup=InlineKeyboardMarkup([
-                    [InlineKeyboardButton("• ғᴏʀ ᴍᴏʀᴇ •", callback_data='about')],
-                    [InlineKeyboardButton("• ᴀʙᴏᴜᴛ ᴍᴇ", callback_data='about'),
-                     InlineKeyboardButton("sᴇᴛᴛɪɴɢs •", callback_data='setting')],
+                    [InlineKeyboardButton("•  ғᴏʀ ᴍᴏʀᴇ  •", callback_data='about')],
+                    [InlineKeyboardButton("• sᴇᴛᴛɪɴɢs", callback_data='setting'),
+                     InlineKeyboardButton("ᴅᴇᴠᴇʟᴏᴘᴇʀ •", url='https://t.me/URR_SANJIII')],
                 ])
         await message.reply_photo(
             photo = random.choice(PICS),

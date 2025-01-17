@@ -11,7 +11,7 @@ autodel_cmd_pic = "https://envs.sh/NyZ.jpg"
 START_MSG = """<b>›› ʜᴇʏ!!, {mention} ~\n\n<blockquote>ʟᴏᴠᴇ ᴛᴏ ᴡᴀᴛᴄʜ ᴀɴɪᴍᴇ sᴇʀɪᴇs ᴀɴᴅ ᴍᴏᴠɪᴇs? ɪ ᴀᴍ ᴍᴀᴅᴇ ᴛᴏ ʜᴇʟᴘ ʏᴏᴜ ᴛᴏ ғɪɴᴅ ᴡʜᴀᴛ ʏᴏᴜ'ʀᴇ ʟᴏᴏᴋɪɴɢ ꜰᴏʀ.</blockquote></b>"""
 
 #Force sub message 
-FORCE_MSG = """<b>›› ʜᴇʏ {mention} ×,\n<blockquote>  ʏᴏᴜʀ ғɪʟᴇ ɪs ʀᴇᴀᴅʏ ‼️ ʟᴏᴏᴋs ʟɪᴋᴇ ʏᴏᴜ ʜᴀᴠᴇɴ'ᴛ sᴜʙsᴄʀɪʙᴇᴅ ᴛᴏ ᴏᴜʀ ᴄʜᴀɴɴᴇʟs ʏᴇᴛ, sᴜʙsᴄʀɪʙᴇ ɴᴏᴡ ᴛᴏ ɢᴇᴛ ʏᴏᴜʀ ғɪʟᴇs.</blockquote>\n›› ᴅᴇᴠᴇʟᴏᴘᴇᴅ ғᴏʀ: [ @Anime_Raven ]</b>"""
+FORCE_MSG = """<b>›› ʜᴇʏ {mention} ×,\n\n<blockquote>  ʏᴏᴜʀ ғɪʟᴇ ɪs ʀᴇᴀᴅʏ ‼️ ʟᴏᴏᴋs ʟɪᴋᴇ ʏᴏᴜ ʜᴀᴠᴇɴ'ᴛ sᴜʙsᴄʀɪʙᴇᴅ ᴛᴏ ᴏᴜʀ ᴄʜᴀɴɴᴇʟs ʏᴇᴛ, sᴜʙsᴄʀɪʙᴇ ɴᴏᴡ ᴛᴏ ɢᴇᴛ ʏᴏᴜʀ ғɪʟᴇs.</blockquote>\n\n›› ᴅᴇᴠᴇʟᴏᴘᴇᴅ ғᴏʀ: [ @Anime_Raven ]</b>"""
 
 CMD_TXT = """<b>» ᴀᴅᴍɪɴ ᴄᴏᴍᴍᴀɴᴅs:
 
@@ -40,7 +40,7 @@ HELP_TEXT = """<b>⁉️ Hᴇʏ...!! {mention} ~
 <b><i>◈ Sᴛɪʟʟ ʜᴀᴠᴇ ᴅᴏᴜʙᴛs, ᴄᴏɴᴛᴀᴄᴛ ʙᴇʟᴏᴡ ᴘᴇʀsᴏɴs/ɢʀᴏᴜᴘ ᴀs ᴘᴇʀ ʏᴏᴜʀ ɴᴇᴇᴅ !</i></b>"""
 
 ABOUT_TXT = """<b>🤖 ᴍʏ ɴᴀᴍᴇ: {botname}
-<blockquote><b>» ᴄʀᴇᴀᴛᴏʀ: <a href=https://t.me/Urr_Sanjiii>𝐒ᴀɴJɪ 𝐒αᴍᴀ</a>\n» ᴏᴜʀ ɴᴇᴛᴡᴏʀᴋ : <a href=https://t.me/Battousai_Network>𝐁ᴀᴛᴛᴏᴜ𝐬ᴀɪ 𝐍ᴇᴛᴡᴏʀᴋ</a>\n» ᴀɴɪᴍᴇ ᴄʜᴀɴɴᴇʟ : <a href=https://t.me/anime_raven>𝐀ɴɪᴍᴇ 𝐑ᴀᴠᴇɴ</a>\n» ᴏɴɢᴏɪɴɢ ᴄʜᴀɴɴᴇʟ : <a href=https://t.me/Ongoing_Anime_Raven>𝐎ɴɢᴏɪɴɢ 𝐑ᴀᴠᴇɴ</a>\n» sᴜᴘᴘᴏʀᴛ ᴄʜᴀᴛ : <a href=https://t.me/Anime_Chat_Raven>𝐑ᴀᴠᴇɴ 𝐂ʜᴀᴛs</a>\n» ᴏᴡɴᴇʀ : <a href=https://t.me/DATTEBAYO56>DATTEBAYO</a></blockquote></b>"""
+<blockquote><b>» ᴄʀᴇᴀᴛᴏʀ: <a href=https://t.me/Urr_Sanjiii>𝐒ᴀɴJɪ 𝐒αᴍᴀ</a>\n» ᴏᴜʀ ɴᴇᴛᴡᴏʀᴋ : <a href=https://t.me/Battousai_Network>𝐁ᴀᴛᴛᴏᴜ𝐬ᴀɪ 𝐍ᴇᴛᴡᴏʀᴋ</a>\n» ᴀɴɪᴍᴇ ᴄʜᴀɴɴᴇʟ : <a href=https://t.me/anime_raven>𝐀ɴɪᴍᴇ 𝐑ᴀᴠᴇɴ</a>\n» ᴏɴɢᴏɪɴɢ ᴄʜᴀɴɴᴇʟ : <a href=https://t.me/Ongoing_Anime_Raven>ᴏɴɢᴏɪɴɢ ʀᴀᴠᴇɴ</a>\n» sᴜᴘᴘᴏʀᴛ ᴄʜᴀᴛ : <a href=https://t.me/Anime_Chat_Raven>𝐑ᴀᴠᴇɴ 𝐂ʜᴀᴛs</a>\n» ᴏᴡɴᴇʀ : <a href=https://t.me/DATTEBAYO56>DATTEBAYO</a></blockquote></b>"""
 
 SETTING_TXT = """<b>»  Cᴏɴғɪɢᴜʀᴀᴛɪᴏɴs</b>
 <blockquote expandable>» ᴛᴏᴛᴀʟ ғᴏʀᴄᴇ sᴜʙ ᴄʜᴀɴɴᴇʟ:  <b>{total_fsub}</b>
