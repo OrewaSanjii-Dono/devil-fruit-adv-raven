@@ -11,7 +11,7 @@ autodel_cmd_pic = "https://envs.sh/NyZ.jpg"
 START_MSG = """<b>›› ʜᴇʏ!!, {mention} ~\n\n<blockquote>ʟᴏᴠᴇ ᴛᴏ ᴡᴀᴛᴄʜ ᴀɴɪᴍᴇ sᴇʀɪᴇs ᴀɴᴅ ᴍᴏᴠɪᴇs? ɪ ᴀᴍ ᴍᴀᴅᴇ ᴛᴏ ʜᴇʟᴘ ʏᴏᴜ ᴛᴏ ғɪɴᴅ ᴡʜᴀᴛ ʏᴏᴜ'ʀᴇ ʟᴏᴏᴋɪɴɢ ꜰᴏʀ.</blockquote></b>"""
 
 #Force sub message 
-FORCE_MSG = """<b><blockquote>›› ʜᴇʏ {mention} ×</blockquote>\n\n  ʏᴏᴜʀ ғɪʟᴇ ɪs ʀᴇᴀᴅʏ ‼️ ʟᴏᴏᴋs ʟɪᴋᴇ ʏᴏᴜ ʜᴀᴠᴇɴ'ᴛ sᴜʙsᴄʀɪʙᴇᴅ ᴛᴏ ᴏᴜʀ ᴄʜᴀɴɴᴇʟs ʏᴇᴛ, sᴜʙsᴄʀɪʙᴇ ɴᴏᴡ ᴛᴏ ɢᴇᴛ ʏᴏᴜʀ ғɪʟᴇs.\n\n<blockquote>›› ᴅᴇᴠᴇʟᴏᴘᴇᴅ ғᴏʀ: [@Anime_Raven]</blockquote></b>"""
+FORCE_MSG = """<b>›› ʜᴇʏ {mention} ×,\n\n<blockquote>ʏᴏᴜʀ ғɪʟᴇ ɪs ʀᴇᴀᴅʏ ‼️ ʟᴏᴏᴋs ʟɪᴋᴇ ʏᴏᴜ ʜᴀᴠᴇɴ'ᴛ sᴜʙsᴄʀɪʙᴇᴅ ᴛᴏ ᴏᴜʀ ᴄʜᴀɴɴᴇʟs ʏᴇᴛ, sᴜʙsᴄʀɪʙᴇ ɴᴏᴡ ᴛᴏ ɢᴇᴛ ʏᴏᴜʀ ғɪʟᴇs.</blockquote>\n\n›› ᴅᴇᴠᴇʟᴏᴘᴇᴅ ғᴏʀ: [ @Anime_Raven ]</b>"""
 
 CMD_TXT = """<b>» ᴀᴅᴍɪɴ ᴄᴏᴍᴍᴀɴᴅs:
 
