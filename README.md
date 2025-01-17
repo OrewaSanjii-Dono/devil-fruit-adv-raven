@@ -1,4 +1,4 @@
-### <h1>ADVANCE FILE SHARING BOT V5 🤖</h1>
+### <h1>ADVANCE FILE SHARING BOT V6 🤖</h1>
 <img src="https://telegra.ph/file/ff8fbe7d67a3c7492c353.jpg">
 <blockquote><b>THIS IS AN ADVANCE FILE SHARING BOT WITH REQUEST FORCE-FSUB, MADE BY ➪ <a href="https://t.me/Urr_Sanjiii">𝐒ᴀɴJɪ</a><br> HERE ONLY THE HIGHLIGHTTED FEATURES ARE MENTIONED BELOW ;</b></blockquote>
 
