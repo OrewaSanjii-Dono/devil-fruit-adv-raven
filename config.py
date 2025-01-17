@@ -7,7 +7,7 @@ from logging.handlers import RotatingFileHandler
 
 
 #Bot token @Botfather, --⚠️ REQUIRED--
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "7321243460:AAFgQZursvOMtl18S2Gojd_ZKeAyOwxhgSk")
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "7193814472:AAGA2mA_2ESVtVGNySJW5oiacAjnm4OUUIg")
 
 #Your API ID from my.telegram.org, --⚠️ REQUIRED--
 APP_ID = int(os.environ.get("APP_ID", "24371796"))
@@ -16,7 +16,7 @@ APP_ID = int(os.environ.get("APP_ID", "24371796"))
 API_HASH = os.environ.get("API_HASH", "8121c78f4b8b31e88cc2623d1277338d")
 
 #Your db channel Id --⚠️ REQUIRED--
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002016717904"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002118745640"))
 
 #OWNER ID --⚠️ REQUIRED--
 OWNER_ID = int(os.environ.get("OWNER_ID", "1439890119"))
@@ -28,13 +28,13 @@ SUPPORT_GROUP = os.environ.get("SUPPORT_GROUP", "-1002097138409")
 PORT = os.environ.get("PORT", "8080")
 
 #Database --⚠️ REQUIRED--
-DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://AnimeRavenBots:AnimeRavenBots@animeravenbots.huekk.mongodb.net/?retryWrites=true&w=majority&appName=piratehunterzororavenbot")
-DB_NAME = os.environ.get("DATABASE_NAME", "piratehunterzororavenbot")
+DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://AnimeRavenBots:AnimeRavenBots@animeravenbots.huekk.mongodb.net/?retryWrites=true&w=majority&appName=DevilFruitBot")
+DB_NAME = os.environ.get("DATABASE_NAME", "DevilFruitBot")
 
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
 #Collection of pics for Bot // #Optional but atleast one pic link should be replaced if you don't want predefined links
-PICS = (os.environ.get("PICS", "https://envs.sh/H2o.jpg")).split() #Required
+PICS = (os.environ.get("PICS", "https://envs.sh/H2r.jpg")).split() #Required
 
 #set your Custom Caption here, Keep None for Disable Custom Caption
 CUSTOM_CAPTION = os.environ.get("CUSTOM_CAPTION", None)
