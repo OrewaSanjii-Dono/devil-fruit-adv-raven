@@ -89,7 +89,7 @@ async def cb_handler(client: Bot, query: CallbackQuery):
                             )
             ),
             reply_markup=InlineKeyboardMarkup([
-                [InlineKeyboardButton('• ʙᴀᴄᴋ', callback_data='start'), InlineKeyboardButton('ᴄʟᴏsᴇ •', callback_data='close')]
+                [InlineKeyboardButton('• ʙᴀᴄᴋ', callback_data='start'), InlineKeyboardButton('sᴛᴀᴛs •', callback_data='setting')]
             ]),
         )
         
@@ -370,7 +370,7 @@ async def cb_handler(client: Bot, query: CallbackQuery):
 
     elif data == 'more_settings':
         if await authoUser(query, query.from_user.id, owner_only=True) :
-            #await query.answer("♻️ Qᴜᴇʀʏ Pʀᴏᴄᴇssɪɴɢ....")
+            #await query.answer("Qᴜᴇʀʏ Pʀᴏᴄᴇssɪɴɢ....!!")
             try:
                 await query.message.edit_text("<b>›› ᴡᴀɪᴛ ᴀ sᴇᴄᴏɴᴅ...!!</b>")
                 LISTS = "ᴇᴍᴘᴛʏ ʀᴇǫᴜᴇsᴛ ғᴏʀᴄᴇ-sᴜʙ ᴄʜᴀɴɴᴇʟ ʟɪsᴛ !?"

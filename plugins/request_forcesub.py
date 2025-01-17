@@ -1,4 +1,4 @@
-# +++ Made By [telegram username: @JeffrySama] +++
+# +++ Made By Sanjiii [telegram username: @Urr_Sanjiii] +++
 
 from bot import Bot
 from database.database import kingdb

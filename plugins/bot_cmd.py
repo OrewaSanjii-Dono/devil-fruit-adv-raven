@@ -1,4 +1,4 @@
-# +++ Made By King [telegram username: @Shidoteshika1] +++
+# +++ Made By Sanjiii [telegram username: @Urr_Sanjiii] +++
 
 import os
 import asyncio

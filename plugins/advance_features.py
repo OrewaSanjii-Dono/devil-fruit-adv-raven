@@ -240,7 +240,7 @@ async def get_admin_list(client:Client, message: Message):
             except:
                 admin_list += f"<b><blockquote>ɪᴅ: <code>{id}</code>\n<i>ᴜɴᴀʙʟᴇ ᴛᴏ ʟᴏᴀᴅ ᴏᴛʜᴇʀ ᴅᴇᴛᴀɪʟs..</i></blockquote></b>\n\n"
                 
-    reply_markup = InlineKeyboardMarkup([[InlineKeyboardButton("• ᴄʟᴏsᴇ •", callback_data = "close")]])
+    reply_markup = InlineKeyboardMarkup([[InlineKeyboardButton("•  ᴄʟᴏsᴇ  •", callback_data = "close")]])
     await message.reply_chat_action(ChatAction.CANCEL)
     await pro.edit(f"<b>🤖 ʙᴏᴛs ᴀᴅᴍɪɴ ʟɪsᴛ :</b>\n\n{admin_list}", reply_markup=reply_markup, disable_web_page_preview = True)
 
@@ -421,8 +421,8 @@ async def files_commands(client: Client, message: Message):
                 link = link
             ),
             reply_markup = InlineKeyboardMarkup([
-                [InlineKeyboardButton(f'• ᴘᴄ:{pcd}', callback_data='pc'), InlineKeyboardButton(f'• ʜᴄ:{hcd}', callback_data='hc')],
-                [InlineKeyboardButton(f'• ᴄʙ:{cbd}', callback_data='cb'), InlineKeyboardButton(f'• sʙ •', callback_data='setcb')],
+                [InlineKeyboardButton(f'• ᴘᴄ: {pcd}', callback_data='pc'), InlineKeyboardButton(f'• ʜᴄ: {hcd}', callback_data='hc')],
+                [InlineKeyboardButton(f'• ᴄʙ: {cbd}', callback_data='cb'), InlineKeyboardButton(f'• sʙ •', callback_data='setcb')],
                 [InlineKeyboardButton('• ʀᴇғʀᴇsʜ', callback_data='files_cmd'), InlineKeyboardButton('ᴄʟᴏsᴇ •', callback_data='close')]
             ]),
             message_effect_id = 5107584321108051014 #👍

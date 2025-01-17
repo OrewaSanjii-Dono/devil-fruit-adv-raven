@@ -1,4 +1,4 @@
-# +++ Made By [telegram username: @JeffySama] +++
+# +++ Made By Sanjiii [telegram username: @Urr_Sanjiii] +++
 
 from pyrogram import Client, filters
 from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
